@@ -4,8 +4,7 @@ Task Flow" is a responsive task management app where users can add, edit, delete
 
 ## Live Links
 
-- **Live Demo**: [Project Live Link]()
-- **GitHub Repository**: [Project Repository]()
+- **Live Demo**: [Project Live Link](https://live-task-flow.netlify.app)
 
 ## Dependencies
 
@@ -18,7 +17,7 @@ This project requires the following dependencies to run:
 - Express.js
 - MongoDB
 
-## How to run the project locally:
+## How to Install the Project:
 
 ### Prerequisites
 
@@ -31,7 +30,7 @@ Make sure you have the following installed on your system:
 **Clone the Repository**
 
 ```bash
-git clone
+git clone https://github.com/whoishasan/Task-Flow-Frontend
 cd Task-Flow
 ```
 
