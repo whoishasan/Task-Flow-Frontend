@@ -111,16 +111,7 @@ export default function TaskAdd() {
 
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        transition={{
-          delay: 0.5,
-        }}
-        whileInView={{
-          opacity: 1,
-        }}
-        className="w-full mt-5 sm:w-12/12 md:w-[600px] backdrop-blur-2xl z-40 overflow-hidden border border-black/20 dark:border-[#FFFFFF1a] items-center flex flex-col rounded-md"
-      >
+      <motion.div className="w-full mt-5 sm:w-12/12 md:w-[600px] backdrop-blur-2xl z-40 overflow-hidden border border-black/20 dark:border-[#FFFFFF1a] items-center flex flex-col rounded-md">
         <motion.span
           initial={{ width: 0 }}
           transition={{

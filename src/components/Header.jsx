@@ -21,7 +21,6 @@ export default function Header() {
           <Logo width={110} />
           <div className="flex items-center gap-3">
             <DarkMode />
-            <GithubStar />
             <div>
               {userValiding ? (
                 <Skeleton className={`w-9 h-9 rounded-full`} />
@@ -118,20 +117,6 @@ export const GoogleSignIn = () => {
           <>Signin</>
         )}
       </Button>
-    </>
-  );
-};
-
-export const GithubStar = () => {
-  return (
-    <>
-      <Link
-        target="_blank"
-        to={import.meta.env.VITE_GITHUB_PROFILE}
-        className="font-light max-[430px]:hidden bg-black/80 text-white dark:text-white/70 text-sm dark:hover:bg-neutral-100/20 dark:bg-neutral-100/10 px-5 py-1 rounded-md border dark:border-white/5  flex gap-2 items-center"
-      >
-        <span className="">Give a star</span>
-      </Link>
     </>
   );
 };
